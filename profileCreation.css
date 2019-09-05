@@ -1,0 +1,131 @@
+		html,body{
+			margin: 0;
+			padding: 0;
+		}
+		.wholePage{
+			background-repeat: no-repeat;
+			background-size:cover;
+			background-position: center center;
+			padding: 0;
+			margin:0;
+			background-color: #D8D8D8 ;
+		}
+		.jumbotron-fluid{
+		    background-image:url('zachLavine.gif');
+		    width: 100%;
+		}
+		.container{
+			text-align: center;
+			color:red;
+			font-family: 'Wallpoet', cursive;
+		}
+		.numPlayers{
+			padding-left: 100px;
+		}
+		.homeBtn{
+			display: none;
+		}
+		select{
+			width: 300px;
+		}
+		.titleCol{
+			font-family: 'Wallpoet', cursive;
+			color:red;
+			text-align: center;
+		}
+		canvas{ 
+			display: block; 
+			vertical-align: bottom; 
+		}
+		.playerRow{
+			height:560px;
+			width:100%;
+			overflow-y:hidden;
+			overflow-x:scroll;
+		}
+		.redirect{
+			display: none;
+		}
+		.player{
+			font-family: 'Rajdhani', sans-serif;
+			height:500px;
+			width: 300px;
+			background-color:white;
+			justify-content:center;
+			margin-right:10px; 
+			margin-top: 10px;
+			margin-left: 10px;
+			border-radius: 15px;
+			overflow-y:hidden;
+			overflow-x:scroll;
+			color:black;
+		} 
+		.flex-container{
+			display: flex;
+			flex-wrap:wrap;
+			flex-direction: row; 
+		}
+		/*table width */
+		@media(min-width: 768px) and (max-width: 991px){
+			.flex-container{
+				flex-direction: column; 
+				flex-direction:nowrap;
+			}
+			.playerRow{
+				height:100%;
+				overflow: scroll;
+				overflow-y:hidden;
+				overflow-x:scroll;
+				justify-content: center;
+			}
+		}
+		/*large*/
+		@media(min-width: 992px){
+			.flex-container{
+				flex-direction: row;
+				flex-wrap: nowrap; 
+			}
+			.playerRow{
+				height:100%;
+				overflow: scroll;
+				overflow-y:hidden;
+				overflow-x:scroll;
+			}
+		}
+		/*small*/
+		@media(max-width: 767px){
+			.playerRow{
+				height:100%;
+				width:100%;
+				overflow: scroll;
+				overflow-y:scroll;
+				overflow-x:hidden;
+				justify-content: center;
+			}
+			.flex-container{
+				flex-direction: column;
+			}
+		}
+		img{
+			width:150px;
+			margin-right: 10px;
+			height: 150px;
+			border-radius: 25px;
+			text-align: center;
+			margin:auto;
+			margin-top: 10px;
+			background-color: #B4ECFF;
+		}
+		.playerContainer{
+			flex-direction: row;
+		}
+		#particles-js{ 
+			position:absolute; 
+			width: 100%;
+			height: 100%; 
+			background-image: url(""); 
+			background-repeat: no-repeat; 
+			background-size: cover; 
+			background-position: 50% 50%; 
+		}
+

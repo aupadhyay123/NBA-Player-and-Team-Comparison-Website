@@ -1,0 +1,95 @@
+		html,body{
+			margin: 0;
+			padding: 0;
+		}
+		.wholePage{
+			background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("nba_teams.jpg");
+			width: 2000px;
+			height: 1000px;
+		}
+		.title{
+			font-family: 'Wallpoet', cursive;
+		}
+		canvas{ 
+			display: block; 
+			vertical-align: bottom; 
+		} 
+		.login{
+			border-radius: 25px;
+			position:absolute;
+			width: 50%;
+			margin: auto;
+			top:30%;
+			left:25%;
+			text-align: center;
+			background-color:white;
+		}
+		label{
+			font-family: 'Wallpoet', cursive;
+			color:black;
+			font-size:30px;
+			padding-right: 20px;
+		}
+		.submitButton{
+			padding-top: 20px;
+		}
+		input{
+			height:30px;
+			width: 230px;
+			border-radius: 25px;
+			font-size:20px;
+			font-family: 'Rajdhani', sans-serif;
+		}
+		.errorMessage{
+			color:red;
+			font-family: 'Rajdhani', sans-serif;
+			font-size: 20px;
+			display: none;
+		}
+		h1{
+			color:red;
+			font-size:100px;
+			text-align: center;
+		}
+		.links{
+			text-align: center;
+			font-family: 'Wallpoet', cursive;
+			font-size: 30px;
+		}
+		.inputRow{
+			padding-top:30px;
+		}
+		@media(min-width: 768px) and (max-width: 991px){
+			.title{
+				font-family: 'Wallpoet', cursive;
+			}
+			.login{
+				border-radius: 25px;
+				position:absolute;
+				width: 50%;
+				height:40%;
+				margin: auto;
+				top:30%;
+				left:25%;
+				text-align: center;
+				background-color:white;
+			}
+		}
+		/*large*/
+		@media(min-width: 992px){
+			.login{
+				height:35%;
+
+			}
+		}
+		/*small*/
+		@media(max-width: 767px){
+
+			.title{
+				font-size:60px;
+			}
+			.login{
+				width: 64%;
+				height: 40%;
+			}
+		}

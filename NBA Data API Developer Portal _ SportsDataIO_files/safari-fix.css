@@ -1,0 +1,7 @@
+﻿@media not all and (min-resolution:.001dpcm) {
+    @media {
+        .row:before, .row:after {
+            display: inline-block;
+        }
+    }
+}

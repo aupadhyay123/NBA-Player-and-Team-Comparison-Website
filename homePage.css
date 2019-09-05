@@ -1,0 +1,122 @@
+		html,body{
+			margin: 0;
+			padding: 0;
+		}
+		.playerBtn{
+			background-image: url("playerIcon.png");
+			width: 30px;
+			height: 30px;
+		}
+		h2{
+			font-family: 'Rajdhani', sans-serif;
+			font-size: 40px;
+		}
+		.container{
+			text-align: center;
+			color:red;
+		}
+		.numPlayers{
+			padding-left: 100px;
+		}
+		.titleCol{
+			color:red;
+			text-align: center;
+		}
+		canvas{ 
+			display: block; 
+			vertical-align: bottom; 
+		}
+		.playerRow{
+			height:50%;
+			width:100%;
+			overflow-y:hidden;
+			overflow-x:scroll;
+		}
+		.eastRow{
+			height:50%;
+			width:100%;
+			overflow-y:hidden;
+			overflow-x:scroll;
+		}
+		.westRow{
+			height:50%;
+			width:100%;
+			overflow-y:hidden;
+			overflow-x:scroll;
+		}
+		.teamRow{
+			height:50%;
+			width:100%;
+			overflow-y:hidden;
+			overflow-x:scroll;
+		}
+		tbody{
+			background-color: #FF3A3A;
+		}
+		table{
+			overflow-y:hidden;
+			overflow-x:scroll;
+			width: 90%; 
+			height: 100px;
+			font-family: 'Rajdhani', sans-serif;
+
+		}
+		.player{
+			height:400px;
+			width:500px;
+			background-color:grey;
+			justify-content:center;
+			margin-right:10px; 
+			margin-top: 10px;
+			margin-left: 10px;
+			border-radius: 15px;
+			overflow-y:hidden;
+			overflow-x:scroll;
+			color:black;
+		} 
+		.team{
+			height:400px;
+			width:500px;
+			background-color:grey;
+			justify-content:center;
+			margin-right:10px; 
+			margin-top: 10px;
+			margin-left: 10px;
+			border-radius: 15px;
+			overflow-y:hidden;
+			overflow-x:scroll;
+			color:black;
+		} 
+		.flex-container{
+			display: flex;
+			flex-wrap:wrap;
+		}
+		.flex-row{
+			
+		}
+		img{
+			width:150px;
+			margin-right: 10px;
+			height: 150px;
+			border-radius: 25px;
+			text-align: center;
+			margin:auto;
+			margin-top: 10px;
+			background-color: #B4ECFF;
+
+		}
+		.playerContainer{
+			flex-direction: row;
+		}
+		#particles-js{ 
+			position:absolute; 
+			width: 100%;
+			height: 100%; 
+			background-image: url(""); 
+			background-repeat: no-repeat; 
+			background-size: cover; 
+			background-position: 50% 50%; 
+		}
+
+
+

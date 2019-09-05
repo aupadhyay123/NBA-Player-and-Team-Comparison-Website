@@ -1,0 +1,121 @@
+﻿.k-dropdown {
+    font-size: 13px;
+}
+
+.developers-section {
+    background-color: #0f1418;
+    padding: 60px 0 100px;
+}
+
+    .developers-section .right-col ul, ol {
+        list-style: initial;
+        margin: initial;
+        padding: initial;
+        padding-left: 20px;
+    }
+
+    .developers-section .right-col ul.liketab {
+        padding-left: 0px;
+    }
+
+    .developers-section .right-col li {
+        list-style: initial;
+        margin: initial;
+        padding: initial;
+        padding: 5px 10px;
+        font-size: 14px;
+        color: #787575;
+        line-height: 22px;
+        font-family: 'Gotham Book';
+    }
+
+    .developers-section .right-col ul li {
+        list-style: disc;
+    }
+
+    .developers-section .right-col ol li {
+        list-style: decimal;
+    }
+
+    .developers-section h1 {
+        font-family: 'Gotham Medium';
+        color: #353333;
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    .developers-section h2 {
+        color: #353333;
+        font-size: 20px;
+        font-family: 'Gotham Bold';
+        margin: 20px 0;
+        text-transform: uppercase;
+    }
+
+    .developers-section h3 {
+        font-size: 16px;
+        font-family: 'Gotham Medium';
+        margin: 15px 0;
+        color: #4f4e4e;
+    }
+
+    .developers-section h4 {
+        font-size: 14px;
+        color: #2f729f;
+        font-family: 'Gotham Book';
+        margin: 10px 0;
+    }
+
+.developers-section em {
+    color: #2f729f;
+    font-style: normal;
+}
+
+.developers-section p {
+    color: #787575;
+    font-size: 14px;
+    font-family: 'Gotham Book';
+    line-height: 175%;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.developers-section .right-col a {
+    color: #1493ff;
+}
+
+.developers-section .right-col .button {
+    display: inline-block;
+    margin: 10px 0;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+.developers-section .button.blue {
+    background-color: #1493ff;
+}
+
+.developers-section .button.red {
+    background-color: #671b1e;
+}
+
+.developers-section .button:hover {
+    opacity: 0.8;
+}
+
+
+@media (max-width: 991px) {
+    .developers-section h1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    .developers-section {
+        padding: 35px 0 50px;
+    }
+
+    .developers-section h1 {
+        font-size: 20px;
+    }
+}

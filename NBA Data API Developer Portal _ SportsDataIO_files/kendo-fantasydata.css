@@ -1,0 +1,154 @@
+﻿.k-grid {
+    font-size: 12px;
+    font-family: 'Gotham Book'
+}
+
+.k-grid td:hover {
+    text-overflow: unset;
+    cursor: default;
+}
+
+.k-grid-norecords-template {
+    margin-left: -10em !important;
+    margin-top: -2em !important;
+    position: absolute !important;
+}
+
+.k-grid td {
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+.k-filter-row th,
+.k-grid-header th.k-header,
+.k-grid td {
+    padding: .5em;
+    text-align: center;
+}
+
+td.k-sorted {
+    background-color: #6ac259;
+    color: #FFF;
+    font-weight: bold;
+    border-left: 1px solid #5da94f !important;
+    border-right: 1px solid #5da94f !important;
+}
+
+.k-alt td.k-sorted {
+    background-color: #68bd58;
+}
+
+.align-left {
+    text-align: left !important;
+    min-width: 100px;
+}
+
+.align-top {
+    vertical-align: top !important;
+}
+
+.k-grid-header .k-i-sort-asc-sm,
+.k-grid-header .k-i-sort-desc-sm {
+    display: none;
+}
+
+.k-grid tr.k-alt {
+    background-color: #f8f9f9;
+}
+
+.k-grid tr:hover > td,
+.k-grid tr.k-alt:hover > td {
+    background: #eaeaea;
+}
+
+.k-grid tr:hover > td.k-sorted,
+.k-grid tr.k-alt:hover > td.k-sorted {
+    background: #5da94f;
+}
+
+.k-grid .k-grid-header .k-header {
+    background-color: #1493ff;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-family: 'Gotham Medium';
+    font-weight: bold;
+    border: 1px solid #3e9ff4;
+}
+
+.k-grid-header .k-header, .k-grid-header .k-header .k-link,
+.k-grid-header .k-link, .k-grid-header .k-link:link {
+    color: #fff;
+}
+
+.k-grid .k-grouping-header {
+    color: #444;
+    background-color: #FFF;
+}
+
+.k-grouping-header .k-group-indicator {
+    background-color: #1493ff;
+    border: 1px solid #3e9ff4;
+    margin: 1px 5px 1px 0px;
+}
+
+.k-loading-color {
+    background-color: rgba(235, 235, 235, 0.40);
+}
+
+.k-loading-image {
+    background-image: url(/assets/images/spinner.gif);
+    background-size: 250px;
+}
+
+.k-dropdown, .k-picker-wrap {
+    border: 1px solid #eceef0;
+}
+
+.k-i-loading {
+    background-image: url(/assets/images/spinner.gif);
+    background-size: 50px;
+}
+
+
+.k-button-group {
+    box-shadow: none;
+    border: 1px solid #eceef0;
+}
+
+.k-button-group .k-button {
+    text-transform: none;
+    line-height: normal;
+    border-left: 1px solid #eceef0;
+}
+
+.k-button-group .k-button:first-child {
+    border-left: none;
+}
+
+.k-button-group .k-button.k-state-active {
+    background-color: #1493ff;
+    color: #FFF;
+    border-color: #1493ff;
+}
+
+.k-button-group:hover {
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 2px 6px rgba(0,0,0,.2), 0 2px 3px rgba(0,0,0,.05);
+    -webkit-transition: -webkit-box-shadow .15s ease-out;
+    transition: -webkit-box-shadow .15s ease-out;
+    transition: box-shadow .15s ease-out;
+    transition: box-shadow .15s ease-out,-webkit-box-shadow .15s ease-out;
+    -webkit-transition: "box-shadow .15s ease-out";
+    transition: "box-shadow .15s ease-out"
+}
+
+.k-button-group .k-button.k-state-disabled, 
+.k-button-group .k-button[disabled], 
+.k-state-disabled .k-button-group .k-button {
+    border-left: 1px solid #eceef0;
+}
+
+
+.k-grid-header-wrap.k-auto-scrollable {
+    background-color: #1493ff;
+}
